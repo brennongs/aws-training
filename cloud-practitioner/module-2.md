@@ -49,7 +49,7 @@ Billing discount on On-Demand instances. We purchase (outright?) reserved instan
 "Ideal for workloads with flexible start and end times, or that can withstand interruptions." Up to 90% cheaper than On-Demand. Spot instances slurp up whatever leftover resources it can find. If there are no available resoureces, it waits to start until some open up.
 
 ### Dedicated Hosts
-Most expensive option, only really useful for compliance purposes.
+Most expensive option, only really useful for compliance purposes. Supports BYOL (bring your own licenses).
 
 ## Scaling
 *Scalability*: the ability to begin with only the resources you need and resopnd to changing demand by adding or removing resources to meet usage or save money
