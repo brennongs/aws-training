@@ -37,8 +37,13 @@ focused on high IOPS (input/output operations per secont). Good for transaction 
 ### EC2 Savings Plan
 "Up to 72%" cheaper than ON-Demand. Requires a 1-year or 3-year commitment for a specified amount o usage. All compute usage up to the usage commitment will be charged at the discount price. Everything over that is charged On-Demand pricing.
 
-### Reserved Instances
+### Reserved Instances (RI)
 Billing discount on On-Demand instances. We purchase (outright?) reserved instances for 1 or 3 years. At the end of the term, we continue paying On-Demand prices until we terminate the instance or purchase a matching plan
+
+#### RI Types:
+- Standard: Big discount (up to 72% off On-Demand prices)
+- Convertible: Smaller discount (up to 54%), but can be upgraded
+- Scheduled: Available to launch in the time windows you reserve
 
 ### Spot Instances
 "Ideal for workloads with flexible start and end times, or that can withstand interruptions." Up to 90% cheaper than On-Demand. Spot instances slurp up whatever leftover resources it can find. If there are no available resoureces, it waits to start until some open up.
