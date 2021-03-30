@@ -8,7 +8,7 @@
 - Summarize the benefits of compliance with AWS
 - Explain additional AWS security services at a basic level
 
-## Shared Security Model
+## Shared Responsibility Model
 The *shared responsibility model* is how AWS separates responsibilities between itself as the service provider, and the customer as the developer of applications and platforms. It dictates that AWS is responsibility of the security _of_ the cloud -- the global infrastructure and foundation services -- while the customer is responsibile for security _in_ the cloud -- their own platforms and app data, operating systems, firewalls, encryption etc.
 
 Like a house, the builder is resonsible for building walls that are sturdy and a door that can keep us safe, but it is our job as the home owner to close and lock the doors and windows.
